@@ -12,7 +12,7 @@ for (let i = 0; i < menuLinks.length; i++) {
     let navMenu=document.createElement('div')
     navMenu.textContent= menuLinks[i].text
     navMenu.classList.add('navMenu')
-    nav.appendChild('navMenu')
+    nav.appendChild(navMenu)
 
 }
 
